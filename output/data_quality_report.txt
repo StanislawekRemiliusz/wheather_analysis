@@ -1,0 +1,45 @@
+Raport jakości danych
+========================================
+Źródło pliku: D:\!10_2025\git\wh\wheather_analysis\output\weather_clean.csv
+Liczba wierszy: 872808
+Liczba kolumn: 15
+
+Typy kolumn:
+- data: datetime64[us]
+- miasto: str
+- ulica: str
+- kod: str
+- latitude: float64
+- longitude: float64
+- dzielnica: str
+- PM25: float64
+- PM10: float64
+- NO2: float64
+- O3: float64
+- TA: float64
+- HA: float64
+- PA: float64
+- dostawca: str
+
+Braki danych:
+- miasto: 13104
+- ulica: 13104
+- kod: 13104
+- dzielnica: 155784
+- PM25: 89200
+- PM10: 91104
+- NO2: 92971
+- O3: 816524
+- TA: 122840
+- HA: 122840
+- PA: 119064
+
+Nieprawidłowe daty: 0
+Puste wartości O3: 816524
+Duplikaty wierszy: 0
+
+Przykładowe rekordy:
+               data   miasto       ulica    kod  latitude  longitude dzielnica  PM25  PM10   NO2  O3    TA    HA      PA  dostawca
+2025-09-01 00:00:00 Warszawa Kajakowa 10 02-838  52.13004  21.021121   Ursynów 11.59 16.19 25.45 NaN 18.35 68.23 1018.38 TeleSense
+2025-09-01 01:00:00 Warszawa Kajakowa 10 02-838  52.13004  21.021121   Ursynów 12.03 16.86 24.63 NaN 17.75 68.78 1018.28 TeleSense
+2025-09-01 02:00:00 Warszawa Kajakowa 10 02-838  52.13004  21.021121   Ursynów 12.09 16.96 22.38 NaN 17.39 70.46 1018.34 TeleSense
