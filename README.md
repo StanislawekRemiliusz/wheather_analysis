@@ -9,7 +9,7 @@
 
 | Script | Description |
 |----------|-------------|
-| [merge_excele_excel.py | Merges source Excel files |
+| [merge_excel_excel.py](scripts/merge_excel.py) | Merges source Excel files |
 | scripts/clean_data.py | Cleans and validates data |
 | [make_report.py](scripts/make_report.py) | Generates DQ
 
