@@ -8,7 +8,7 @@
 
 First merge the source Excel files using:
 
-➡️ [merges/merge_excel.py
+➡️ [scripts/merge_excel.py
 
 
 join after date tables:
