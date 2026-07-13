@@ -25,3 +25,6 @@ print(f"number of record: {len(merged_df)}")
 print(merged_df.head())
 print(merged_df.info())
 print(merged_df.isna().sum())
+
+
+excel_files = list(data_folder.glob("*.xlsx"))
