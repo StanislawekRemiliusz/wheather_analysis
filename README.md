@@ -4,11 +4,15 @@
 
 
 
-## Data Preparation
 
-First merge the source Excel files using:
+## Python Scripts
 
-➡️ [merge_excel.py](scripts/
+| Script | Description |
+|----------|-------------|
+| [merge_excele_excel.py | Merges source Excel files |
+| scripts/clean_data.py | Cleans and validates data |
+| [make_report.py](scripts/make_report.py) | Generates DQ
+
 
 
 join after date tables:
